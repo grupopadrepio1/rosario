@@ -1,0 +1,51 @@
+/* Definindo o tamanho base da fonte e a fonte */
+html {
+    font-size: 100%; /* Tamanho base 16px */
+    font-family: 'Lato', sans-serif; /* Usando a fonte Lato como padrão */
+    
+}
+
+/* Definindo os tamanhos de fonte para as diferentes tags */
+h1 {
+    font-size: 2rem; /* 2 vezes o tamanho base (32px) */
+    font-weight: bold; /* Definindo como negrito */
+    background-image: url(img/base1.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+h2 {
+    font-size: 1.5rem; /* 1.5 vezes o tamanho base (24px) */
+    font-weight: bold; /* Definindo como negrito */
+}
+
+h3 {
+    font-size: 1.25rem; /* 1.25 vezes o tamanho base (20px) */
+    font-weight: bold; /* Definindo como negrito */
+}
+
+h4 {
+    font-size: 1.125rem; /* 1.125 vezes o tamanho base (18px) */
+    font-weight: bold; /* Definindo como negrito */
+}
+
+h5 {
+    font-size: 1rem; /* Tamanho base (16px) */
+    font-weight: bold; /* Definindo como negrito */
+}
+
+h6 {
+    font-size: 0.875rem; /* 0.875 vezes o tamanho base (14px) */
+    font-weight: bold; /* Definindo como negrito */
+}
+
+/* Definindo o tamanho da fonte para p, a, span */
+p, a, span {
+    font-size: 1rem; /* Tamanho base (16px) */
+    background-image: url(img/base2.jpg);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+
+}

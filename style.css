@@ -1,0 +1,41 @@
+
+
+
+body{
+    background-color:rgb(236, 227, 227);
+    
+}
+
+.corpo {
+    width: 60%;
+    margin: auto;
+    padding:1.5em;
+    padding-left: 4em;
+    padding-right: 4em;
+    background-color: rgb(230, 217, 217);
+}
+
+.conteudo {
+    overflow: hidden; /* Limpa o float para garantir que o conteúdo flua corretamente */
+}
+
+.imagem {
+    float: left;
+    margin-right: 1em; /* Adiciona margem à direita para separar a imagem do texto */
+}
+
+.imgmist{
+    width: 40vh;
+    height: auto;
+    border-radius: 10px; /* Arredonda os cantos da imagem */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra */
+        
+}
+
+.CIC{
+    color:rgb(88, 157, 160);
+    font-family:Trebuchet;
+    font-size: larger;
+
+}
+

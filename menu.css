@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Germania+One&family=Jaro:opsz@6..72&display=swap');
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo para o header */
+header {
+    background-color: #333; /* Cor de fundo */
+    padding: 20px 0; /* Espaçamento interno */
+    text-align: center; /* Centralizar o conteúdo */
+    width: 100%; /* Ocupar 100% da largura da tela */
+}
+
+.titulosite{
+    
+    color: #d3b614;
+    font-family: 'Germania One', sans-serif; /* Fonte personalizada */
+    font-size: 8vh;
+}
+    
+}
+
+/* Estilo para a navegação */
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Remover marcadores de lista */
+}
+
+nav ul li {
+    display: inline-block; /* Exibir os itens da lista em linha */
+    margin-right: 20px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+    color: #e0cece; /* Cor do texto dos links */
+    text-decoration: none; /* Remover sublinhado dos links */
+    font-size: 1.2em; /* Tamanho da fonte */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo para os links quando o mouse passa sobre eles */
+nav ul li a:hover {
+    color: #d3b614; /* Nova cor dos links ao passar o mouse */
+    transition: color 0.3s; /* Adiciona uma transição suave para a mudança de cor */
+}
+
+
+/* Estilo para tornar a navegação responsiva */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block; /* Exibir os itens da lista em bloco */
+        margin: 10px 0; /* Espaçamento entre os itens */
+    }
+}
+
+
+
+
+footer {
+    background-color: #333; /* Cor de fundo */
+    padding: 20px; /* Espaçamento interno do footer */
+    text-align: center; /* Centraliza o texto dentro do footer */
+}
+
+footer p {
+    color: #d4c8c8; /* Cor do texto do link */
+    margin: 0; /* Remove margem padrão do parágrafo */
+}
+
+footer a {
+    text-decoration: none; /* Remove sublinhado do link */
+    color: #d4c8c8; /* Cor do texto do link */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse sobre o link */
+}
+
